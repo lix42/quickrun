@@ -1,0 +1,5 @@
+node_modules
+bld
+npm-debug.log
+*.sublime-workspace
+.idea

@@ -1,0 +1,35 @@
+{
+  "name": "@lix42/quickrun",
+  "version": "1.0.0",
+  "description": "run ES6 code snipet",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot",
+    "deploy": "NODE_ENV=production webpack -p"
+  },
+  "author": "@lix42",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-eslint": "^3.1.20",
+    "babel-loader": "^5.2.2",
+    "babel-runtime": "^5.6.15",
+    "css-loader": "^0.14.5",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.4",
+    "expose-loader": "^0.7.0",
+    "file-loader": "^0.8.4",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.2.0",
+    "react-hot-loader": "^1.2.7",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
